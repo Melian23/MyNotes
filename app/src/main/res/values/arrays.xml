@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="notes">
+        <item>Заметка №1</item>
+        <item>Заметка №2</item>
+        <item>Заметка №3</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Тост</item>
+        <item>12.04.2022</item>
+        <item>Удивительно устроен человек - он огорчается, когда теряет богатство, и равнодушен к тому, что безвозвратно уходят дни его жизни!</item>
+    </string-array>
+</resources>
