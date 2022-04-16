@@ -5,12 +5,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <FrameLayout
+    <androidx.fragment.app.FragmentContainerView
         android:id="@+id/listNote"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="1">
 
-    </FrameLayout>
+    </androidx.fragment.app.FragmentContainerView>
 
 </LinearLayout>

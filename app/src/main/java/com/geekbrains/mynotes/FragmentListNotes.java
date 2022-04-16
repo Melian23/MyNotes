@@ -48,10 +48,10 @@ public class FragmentListNotes extends Fragment {
                     Notes notes = new Notes(finalI);
                     if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE) {
                         FragmentDescriptionNotes fragmentDescriptionNotes = FragmentDescriptionNotes.newInstance(notes);
-                        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.descriptionNotes, fragmentDescriptionNotes).commit();
+                        getParentFragmentManager().beginTransaction().replace(R.id.descriptionNotes, fragmentDescriptionNotes).commit();
                     } else {
                         FragmentDescriptionNotes fragmentDescriptionNotes = FragmentDescriptionNotes.newInstance(notes);
-                        getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.listNote, fragmentDescriptionNotes).addToBackStack("").commit();
+                        getParentFragmentManager().beginTransaction().replace(R.id.listNote, fragmentDescriptionNotes).addToBackStack("").commit();
                     }
                 }
             });
